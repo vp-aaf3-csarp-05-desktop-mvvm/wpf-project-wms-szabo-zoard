@@ -11,6 +11,11 @@
     </Window.DataContext>
     <StackPanel Orientation="Vertical" Margin="10">
         <Label Content="Név:"/>
-            <TextBlock Text="{Binding Nev}" FontSize="16" Margin="0,0,0,10"/>
-        </StackPanel>
+        <TextBlock Text="{Binding Nev}" FontSize="16" Margin="0,0,0,10"/>
+        <Label Content="Adószám:"/>
+        <TextBlock Text="{Binding Adoszam}" FontSize="16" Margin="0,0,0,10"/>
+        <Label Content="Szabadnapok száma:"/>
+        <TextBlock Text="{Binding SzabadnapokSzama}" FontSize="16" Margin="0,0,0,10"/>
+    </StackPanel>
 </Window>
+
